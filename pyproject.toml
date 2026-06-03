@@ -1,0 +1,14 @@
+[project]
+name = "nyacc"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "datashader>=0.19.1",
+    "holoviews[recommended]>=1.22.1",
+    "jupyterlab>=4.5.7",
+    "matplotlib>=3.10.9",
+    "pandas>=3.0.3",
+    "pandas-stubs~=3.0.3",
+    "scikit-learn>=1.9.0",
+    "seaborn>=0.13.2",
+]
